@@ -1,9 +1,12 @@
-from multiprocessing import Manager
-from multiprocessing import Lock
+from multiprocessing import Manager, Lock
 
 
 def create_shared():
+    """Create a shared list for storing order results."""
     manager = Manager()
     return manager.list()
-   
-lock = Lock()
+
+
+def get_lock():
+    """Create a lock for synchronizing access to shared data."""
+    return Lock()
