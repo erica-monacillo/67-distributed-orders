@@ -1,10 +1,9 @@
 # cs323-distributed-orders
 ## GROUP 67
-
-## MONACILLO
-## SUELO
-## ARRIBA
-## PANA
+# MONACILLO
+# SUELO
+# ARRIBA
+# PANA
 
 # MPI & Multiprocessing Reflection
 
